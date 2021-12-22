@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body {
+    font-family: Roboto;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    color: blue;
+    height: 50px;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    top: 0;
+    height: 70px;
+    position: fixed;
+}
+#wishFooter{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+.home-footer {
+  background-color: black;
+  color: white;
+  
+
+}
+#homeFooter1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+.footer-social{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top: 1px solid white;
+}
+.footer-social>i {
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+  
+}
+hr {
+  color: white;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;                
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+article{
+    margin-top: 70px;
+    
+}
+/*-------------------------------------------------------------------------------------*/
+.home-section3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+  .home-popular-dishes {
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .popular-head {
+    margin-left: 5%;
+  }
+  .popular-head>a {
+    font-weight: normal;
+  }
+  h1 {
+    font-weight: bold;
+  }
+  .img-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .pop-image-container {
+    height: 250px;
+    width: 550px;
+    border: black 2px solid;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+  
+  
+   .pop-img-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+  } 
+  .dish-desc {
+    font-size: 20px;
+    color: brown;
+    margin: 0;
+  }
+  .dis-icon {
+    color: orange;
+    font-size: 20px;
+  }
+
+  .img-cont {
+  
+    height: 250px;
+    width: 350px;
+    
+  }
+  /*_---------------------------------------------------------------*/
+
+  .add-btn {
+      font-size: 20px;
+      padding: 10px;
+      border: mediumspringgreen 1px solid;
+      background-image: linear-gradient(purple,blue,black);
+      color: white;
+  }
+  /*-------------------------------------------------------------------*/
+  #emptyWishlist {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      font-size: 50px;
+      font-weight: bold;
+      font-family: bree serif;
+      padding-top: 20px;
+  }
+
+  .wishlist {
+    display: flex;
+    flex-direction: column;
+  
+    padding: 20px;
+    border: 2px black solid;
+    
+
+
+  }
+  .wishclass {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .add-btn1 {
+
+    font-size: 20px;
+      padding: 10px;
+      border: mediumspringgreen 1px solid;
+      background-image: linear-gradient(purple,blue,black);
+      color: white;
+      width: 180px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 30px;
+  }
+  .head-wishlist{
+    font-size: 40px;
+    text-align: center;
+    font-family: bree serif;
+    color: rgb(12, 3, 65);
+  }
+  .wishclass1{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: purple;
+  }
+  .wishclass2{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: red;
+  }

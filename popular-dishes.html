@@ -1,0 +1,177 @@
+<!DOCTYPE html><!-- dtd path : document type definition-->
+<html>
+    <head>
+        <title>Restaurant</title>
+        <meta charset="UTF-8">
+        <meta name="keywords"  content=" put imp words from ur webpage">
+        <meta name="author" content="put name of author"> 
+        <meta name="description" content="put short desc">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="popular-dishes.css">
+        
+    </head>
+    <body>
+        <header class="home-header" id="homeHeader">            
+            <nav class="home-nav" id="homeNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipe-page.html">Recipe Tube</a></li>
+                    <li><a  href="popular-dishes.html">Order</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <section class="home-section3">
+                <h1 class="popular-head">Popular Dishes </h1>
+                <section class="home-popular-dishes">
+                    <section class="pop-image-container" id="popCont1">
+                        <div >
+                            <img src="pexels-elevate-1267320.jpg" class="img-cont">
+                        </div>
+                        <div class="pop-img-details">
+                            
+                            <h1 class="dish-desc">Veg Tandoori</h1>
+                            
+                            <p><b>Rs.</b> 190</p>
+                            <i class="fas fa-tags dis-icon"> 10% Off</i>
+                            <button class="add-btn" id="btn1">Add to Wishlist</button>
+                        </div>
+                        
+                    </section>
+                    <section class="pop-image-container" id="popCont2">
+                        <div >
+                            <img src="pexels-the-castlebar-5914437.jpg" class="img-cont">
+                        </div>
+                        <div class="pop-img-details">
+                            
+                            <h1 class="dish-desc">Chicken Biryani</h1>
+                            
+                            <p><b>Rs.</b> 239</p>
+                            <i class="fas fa-tags dis-icon"> 20% Off</i>
+                            <button class="add-btn" id="btn2">Add to Wishlist</button>
+                        </div>
+                    </section>
+                    <section class="pop-image-container" id="popCont3">
+                        <div >
+                            <img src="pexels-chan-walrus-958545.jpg" class="img-cont">
+                        </div>
+                        <div class="pop-img-details">
+                            
+                            <h1 class="dish-desc">Paneer Masala</h1>
+                            
+                            <p><b>Rs.</b> 259</p>
+                            <i class="fas fa-tags dis-icon"> 25% Off</i>
+                            <button class="add-btn" id="btn3">Add to Wishlist</button>
+                        </div>
+                    </section><section class="pop-image-container" id="popCont4">
+                        <div >
+                            <img src="pexels-pixabay-262978.jpg" class="img-cont">
+                        </div>
+                        <div class="pop-img-details">
+                            
+                            <h1 class="dish-desc">Mutton Curry</h1>
+                            
+                            <p><b>Rs.</b> 340</p>
+                            <i class="fas fa-tags dis-icon"> 10% Off</i>
+                            <button class="add-btn" id="btn4">Add to Wishlist</button>
+                        </div>
+                    </section>
+                </section>
+                
+                    
+            </section>
+        </article>
+        
+        
+        <article class="wishlist">
+            <h1 class="head-wishlist">Wishlist<hr></h1>
+            
+            <article id="emptyWishlist">
+                You have zero items in your Wishlist
+            </article>
+            <div id="popWishCont" class="wishclass">
+                <h1>No.</h1>
+                <h1><i>Item</i></h1>
+                <h1><i>Price</i></h1>
+            </div>
+            <div id="popWishCont1" class="wishclass1">
+                <h1><b>-></b></h1>
+                <h1>Veg Tandoori</h1>
+                <h1>190</h1>
+            </div>
+            <div id="popWishCont2" class="wishclass1">
+                <h1><b>-></b></h1>
+                <h1>Chicken Biryani</h1>
+                <h1>239</h1>
+            </div>
+            <div id="popWishCont3" class="wishclass1">
+                <h1><b>-></b></h1>
+                <h1>Paneer Masala</h1>
+                <h1>259</h1>
+            </div>
+            <div id="popWishCont4" class="wishclass1">
+                <h1><b>-></b></h1>
+                <h1>Mutton Curry</h1>
+                <h1>340</h1>
+            </div>
+            <div id="popWishCont5" class="wishclass2">
+                <h1><b>=></b></h1>
+                <h1>Total</h1>
+                <h1 id="total"></h1>
+            </div>
+            <div class="wishclass">
+                <button id="totalPrice" class="add-btn1">Total Price</button>
+                <button id="orderBtn" class="add-btn1">Order</button>
+            </div>
+            
+        </article>
+        
+
+        <footer class="home-footer" >
+            <div class="" id="homeFooter1">
+                <div class="">
+                    <h1>EAZYDINER</h1>
+                    <p><a >About Us</a></p>
+                    <p><a >Food trends (Blog)</a></p>
+                    <p><a>Partner offers</a></p>
+                    <p><a>Events</a></p>
+                    <p><a >Download App</a></p>
+                    <p><a >Contact Us</a></p>
+                </div>
+                    
+                        
+                <div class="">
+                    <h1>Discover</h1>
+                    <p><a >Table booking</a></p>
+                    <p><a >Delivery near me</a></p>                    
+                    <p><a >Takeaway near me</a></p>
+                    <p><a >Fast food near me</a></p>
+                    <p><a >Prepaid deals near me</a></p>
+                </div>
+                    
+                <div >
+                    <h1>For you</h1>
+                    <p><a >Prime Subscription</a></p>
+                    <p><a >PayEazy</a></p>
+                    <p><a >EazyPoints Redemption</a></p>
+                    <p><a >Refer & Earn</a></p>
+                    <p><a >Terms & Conditions</a></p>
+                    <p><a >Privacy Policy</a></p>                        
+                </div>
+                    
+            </div>
+            <div class="footer-social">
+                <i class="fab fa-facebook-square"> Facebook</i>
+                <i class="fab fa-instagram"> Instagram</i>
+                <i class="fab fa-linkedin-in"> Linkedin</i>
+
+            </div>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="popular-dishes.js"></script>
+    </body>
+</html>
